@@ -11,36 +11,39 @@
 <body class="Background">
     <!--Inserisco intestazione SOLO logo-->
     <header>
-    <div>
+   
         <img src="img/Logo.png" alt="Logo" class="Logo">
-        <span class="Title-logo"><strong>Toboolist</strong></span>
-    </div>
+        <h1 class="Title-logo"><strong>Toboolist</strong></h1>
+    
     </header>
     
     <!-- Lista da formattare + bottoni -->
     <main>
         <div class="Box-list">
-            <div>
-                <button>Add Task</button>
-                <button>Add Section</button>
-            </div>
+                <button class="button right">Add Task</button>
+                <button class="button left">Add Section</button>
             <hr>
-            <ul>&#9660; <strong>New Task</strong> 
-                <li><span>&checkmark;</span> Quarterly Newsletter</li>
-            </ul>
-            <ul>&#9660; Today
-                <li><span>&checkmark;</span>Recruiting blog spot</li>
-                <li><span>&checkmark;</span>Mobile app Launch</li>
-                <li><span>&#10007;</span>Interview Jhon H.</li>
-                <li><span>&checkmark;</span>Summit update to mobile storefronts</li>
-            </ul>
-            <ul>&#9660; Upcoming
-                <li><span>&#10007;</span>Schedule meeting with Alex</li>
-                <li><span>&checkmark;</span>Homepage Refresh</li>
-                <li><span>&checkmark;</span>Onboard new sales team members</li>
-                <li><span>&checkmark;</span>Review editorial calendar</li>
-            </ul>
-
+            <div class="section-list"></div>
+                <ul>&#9660;
+                <h2>New Task</h2> 
+                    <li><span>&checkmark;</span> Quarterly Newsletter</li>
+                </ul>
+            
+                <ul class="section-list">&#9660; 
+                <h2>Today</h2>
+                    <li><span>&checkmark;</span>Recruiting blog spot</li>
+                    <li><span>&checkmark;</span>Mobile app Launch</li>
+                    <li><span>&#10007;</span>Interview Jhon H.</li>
+                    <li><span>&checkmark;</span>Summit update to mobile storefronts</li>
+                </ul>
+                <ul class="section-list">&#9660; 
+                <h2>Upcoming</h2>
+                    <li><span>&#10007;</span>Schedule meeting with Alex</li>
+                    <li><span>&checkmark;</span>Homepage Refresh</li>
+                    <li><span>&checkmark;</span>Onboard new sales team members</li>
+                    <li><span>&checkmark;</span>Review editorial calendar</li>
+                </ul>
+            </div>
         </div>
     </main>
 </body>

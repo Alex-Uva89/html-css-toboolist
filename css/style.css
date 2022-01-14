@@ -1,5 +1,5 @@
 html {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
 }
 
 * {
@@ -9,15 +9,18 @@ html {
 }
 
 header {
-    background-color: white;;
+    background-color: white;
 }
 
 .Logo {
     margin-left: 20px;
+    vertical-align: middle;
 }
 
 .Title-logo {
     font-size: 30px;
+    display: inline;
+    vertical-align: middle;
 }
 
 .Background {
@@ -25,11 +28,45 @@ header {
 }
 
 .Box-list {
-    width: 50%;
+    width: 80%;
     background-color: white;
     margin: 30px auto;
 }
 
+.button {
+    border-radius: 5px;
+}
+
+.right {
+    color: white;
+    background-color: rgb(69, 163, 240);
+    margin: 10px 0px 10px 40px;
+    border: none;
+    padding: 5px;
+}
+
+
+.left {
+    background-color: white;
+    color: rgb(194, 192, 192);
+    margin: 10px 40px 10px 0px;
+    border: 1px solid rgb(194, 192, 192);
+    padding: 5px;    
+}
+
+hr {
+    color: rgb(194, 192, 192);
+}
+
+.section-list {
+    margin-top: 15px;
+}
+
+h2 {
+    display: inline;
+}
+
 ul {
     list-style-type: none;
+    margin top: 5px;
     }
