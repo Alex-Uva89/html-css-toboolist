@@ -8,3 +8,28 @@ html {
     box-sizing: border-box;
 }
 
+header {
+    background-color: white;;
+}
+
+.Logo {
+    margin-left: 20px;
+}
+
+.Title-logo {
+    font-size: 30px;
+}
+
+.Background {
+    background-color: rgb(235, 235, 235);
+}
+
+.Box-list {
+    width: 50%;
+    background-color: white;
+    margin: 30px auto;
+}
+
+ul {
+    list-style-type: none;
+    }
