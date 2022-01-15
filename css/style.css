@@ -31,7 +31,7 @@ header {
     width: 80%;
     background-color: white;
     margin: 30px auto;
-    padding: 5px;
+    padding: 5px 5px 30px 5px;
 }
 
 .button {
@@ -74,25 +74,67 @@ ul {
     }
 
 .symbolv { 
+    display: inline-block;
     text-align: center;
     font-size: 5px;
-    line-height: 15px;
-    display: inline-block;
-    width: 15px;
-    height: 15px;
+    line-height: 10px;
+    vertical-align: middle;
+    width: 12px;
+    height: 12px;
     color: rgb(5, 182, 5);
-    border: 1px solid rgb(5, 182, 5);
+    border: 0.5px solid rgb(5, 182, 5);
     border-radius: 100%;
+    margin: 10px;
 }
 
 .symbolx {
+    display: inline-block;
     text-align: center;
     font-size: 5px;
-    line-height: 15px;
-    display: inline-block;
-    width: 15px;
-    height: 15px;
+    line-height: 10px;
+    vertical-align: middle;
+    width: 12px;
+    height: 12px;
     color: red;
-    border: 1px solid red;
+    border: 0.5px solid red;
     border-radius: 100%;
+    margin: 10px;
 }
+
+.marker {
+    color: white;
+    font-size: 8px;
+    vertical-align: text-top;
+    border: 0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px 8px 5px 8px;
+}
+
+
+
+.blue{
+    background-color: rgb(69, 163, 240);
+}
+
+.violet{
+    background-color: rgba(199, 3, 199, 0.5);
+}
+
+.aquamarine {
+    background-color: rgba(2, 148, 133, 0.5);
+}
+
+.orange {
+    background-color: rgba(255, 166, 0, 0.8);
+}
+.pink {
+    background-color: rgba(240, 114, 240, 0.5);
+}
+
+.green {
+    background-color: rgba(84, 196, 84, 0.8);
+}
+
